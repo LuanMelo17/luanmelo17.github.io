@@ -1,76 +1,163 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Luan Melo</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <aside class="aside-wrap">
-            <img class="profile-img" src="https://source.unsplash.com/random/200x200?profile">
-            <nav class="menu">
-                <ul class="menu-list">
-                    <li class="menu-item">
-                        <a href="#home" class="menu-link">
-                            <i class="fa-solid fa-house"></i>
-                            Inicio
-                        </a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="#skills" class="menu-link">
-                            <i class="fa-solid fa-screwdriver-wrench"></i>
-                            Habilidades
-                        </a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="#experience" class="menu-link">
-                            <i class="fa-solid fa-briefcase"></i>
-                            Experiências
-                        </a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="#projects" class="menu-link">
-                            <i class="fa-solid fa-flask"></i>
-                            Projetos
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </aside>
-        <main>
-            <section id="home">
-                <h1 class="section-title">Luan Melo</h1>
-                <h3>Desenvolvedor | PHP | JS | Magento2</h3>
-                <address>
-                    <a class="email-link" href="mailto:luan-g@hotmail.com">luan-g@hotmail.com</a>
-                </address>
-                <p class="section-description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Harum incidunt quisquam voluptatem porro consequatur, 
-                    dolores quod reprehenderit tempora exercitationem ipsa quia et, 
-                    laboriosam expedita culpa dicta dolorem illo qui repellendus!
-                </p>
-                <ul class="social-links">
-                    <li>
-                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                    </li>
-                    <li>
-                        <a href=""><i class="fa-brands fa-github"></i></a>
-                    </li>
-                    <li>
-                        <a href=""><i class="fa-brands fa-instagram"></i></a>
-                    </li>
-                </ul>
-            </section>
-            <section id="skills">
-                <h2>Habilidades</h2>
-            </section>
-            <section id="experience">
-                <h2>Experiências</h2>
-            </section>
-            <section id="projects">
-                <h2>Projetos</h2>
-            </section>
-        </main>
-    </body>    
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luan Melo</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="projects.css">
+  <link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+  <label for="menu-check" class="menu-check-label fa fa-bars"></label>
+  <input type="checkbox" id="menu-check">
+
+  <aside class="aside">
+    <a href="#home">
+      <img class="profile-image" src="luan.jpeg">
+    </a>
+    <nav class="menu">
+      <ul class="menu-list">
+        <li class="menu-item">
+          <a href="#home" class="menu-link">
+            <i class="fa-solid fa-house"></i>
+            Inicio
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#skills" class="menu-link">
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+            Habilidades
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#experience" class="menu-link">
+            <i class="fa-solid fa-briefcase"></i>
+            Experiências
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#projects" class="menu-link">
+            <i class="fa-solid fa-flask"></i>
+            Projetos
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </aside>
+  <main>
+    <section id="home">
+      <h1 class="section-title">Luan Melo</h1>
+      <h3>Studant of Full Stack</h3>
+      <address>
+        <a href="mailton:luan-g@hotmail.com" class="email-link">luan-g@hotmail.com</a>
+      </address>
+
+      <div class="section-content">
+        <p class="section-description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, modi sit asperiores error rem ea ipsum dolores distinctio, voluptates dicta dolorem doloribus explicabo pariatur tenetur culpa a, ipsa doloremque corporis.
+        </p>
+        <ul class="links">
+          <li>
+            <a href="https://linkedin.com" target="_blank">
+              <span class="fa-brands fa-linkedin"></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com" target="_blank">
+              <span class="fa-brands fa-github"></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com" target="_blank">
+              <span class="fa-brands fa-instagram"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2 class="section-title">Habilidades</h2>
+      <div class="section-content">
+
+        <p class="section-description">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias eum fuga, asperiores repudiandae explicabo vel quae magni perspiciatis obcaecati quod tenetur sapiente magnam vitae facilis ad itaque iure tempora. Illum!
+        </p>
+
+        <div class="tools">
+          <h3 class="tools-title">Tecnologias</h3>
+          <ul>
+            <li>
+              <i class="fa-brands fa-magento"></i>
+            </li>
+            <li>
+              <i class="fa-brands fa-html5"></i>
+            </li>
+            <li>
+              <i class="fa-brands fa-css3-alt"></i>
+            </li>
+            <li>
+              <i class="fa-brands fa-js"></i>
+            </li>
+            <li>
+              <i class="fa-brands fa-react"></i>
+            </li>
+            <li>
+              <i class="fa-brands fa-php"></i>
+            </li>
+            <li>
+              <i class="fa-brands fa-node-js"></i>
+            </li>
+            <li>
+              <i class="fa-solid fa-database"></i>
+            </li>
+            <li>
+              <i class="fa-brands fa-aws"></i>
+            </li>
+            <li>
+              <i class="fa-brands fa-docker"></i>
+            </li>
+            <li>
+              <i class="fa-solid fa-server"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2 class="section-title">Experiências</h2>
+      <div class="section-content">
+        <div class="experience-item">
+          <div class="company">
+            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias eum fuga, asperiores repudiandae explicabo vel quae magni perspiciatis obcaecati quod tenetur sapiente magnam vitae facilis ad itaque iure tempora. Illum!</h3>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">Projetos</h2>
+        
+               
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p> 
+              </div>
+              
+            </div>
+          </div>
+      </section>
+    </main>
+  </body>
+  </html>
+          </div>
+        </div>
+    </section>
+  </main>
+</body>
 </html>
